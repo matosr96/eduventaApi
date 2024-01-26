@@ -111,3 +111,15 @@ Aplicar las mejores prácticas de seguridad, incluyendo la validación de entrad
 Implementar un sistema de registro (logs) para rastrear eventos importantes y facilitar la solución de problemas.
 
 Este sistema ofrecerá a la tienda la capacidad de gestionar de manera eficiente los créditos, clientes, productos e inventario, permitiendo a los usuarios realizar transacciones de compra a crédito de manera segura.
+
+### Contribución
+
+¡Gracias por considerar contribuir a EduventaAPI+! Si deseas contribuir, sigue estos pasos:
+
+1. Realiza un fork del repositorio.
+2. Crea una nueva rama para tu contribución: `git checkout -b nueva-funcionalidad`.
+3. Realiza tus cambios y realiza commits descriptivos.
+4. Push a tu rama: `git push origin nueva-funcionalidad`.
+5. Abre un Pull Request con una descripción clara de los cambios.
+
+Esperamos recibir tus contribuciones con entusiasmo.
