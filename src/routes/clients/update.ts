@@ -10,7 +10,7 @@ export const updateClientRoute = () => {
     const data = body as UpdateClientDto;
     try {
       const client = await updateClient(data);
-      res.status(200).json({ message: "Empleado actualizado", data: client });
+      res.status(200).json({ message: "Cliente actualizado", data: client });
     } catch (error) {
       console.error("Error:", error);
       res.status(500).json({ error: "Error interno del servidor" });

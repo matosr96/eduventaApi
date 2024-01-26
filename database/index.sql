@@ -71,3 +71,39 @@ CREATE TABLE
     FOREIGN KEY (creditDetailId) REFERENCES credit_details(creditDetailId),
     FOREIGN KEY (productId) REFERENCES products(productId)
   );
+
+
+  -- Modificar la tabla credits para agregar autoincremento a creditId
+
+-- 1.Eliminar la restricción de clave foránea en credit_details
+ALTER TABLE credit_details
+DROP FOREIGN KEY credit_details_ibfk_1;
+
+-- 2.Modificar la columna creditId para agregar autoincremento
+ALTER TABLE credits
+MODIFY COLUMN creditId INT AUTO_INCREMENT;
+
+-- 3.Agregar nuevamente la restricción de clave foránea en credit_details
+ALTER TABLE credit_details
+ADD CONSTRAINT FOREIGN KEY (creditId) REFERENCES credits(creditId);
+
+
+
+
+
+
+
+ALTER TABLE credits
+MODIFY COLUMN creditId INT AUTO_INCREMENT;
+
+-- Modificar la tabla credit_details para agregar autoincremento a creditDetailId
+ALTER TABLE credit_details
+MODIFY COLUMN creditDetailId INT AUTO_INCREMENT;
+
+-- Modificar la tabla products para agregar autoincremento a productId
+ALTER TABLE products
+MODIFY COLUMN productId INT AUTO_INCREMENT;
+
+-- Modificar la tabla inventory para agregar autoincremento a inventoryId
+ALTER TABLE inventory
+MODIFY COLUMN inventoryId INT AUTO_INCREMENT;
