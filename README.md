@@ -6,7 +6,7 @@ El proyecto **EduventaAPI+** se enfoca en desarrollar un sistema integral para l
 
 ## Tecnologías y Habilidades Necesarias
 
-Para contribuir al desarrollo de **TiendaEscolarAPI+**, se requiere experiencia en las siguientes tecnologías y habilidades:
+Para contribuir al desarrollo de **EduventaAPI+**, se requiere experiencia en las siguientes tecnologías y habilidades:
 
 ### Tecnologías Principales:
 
