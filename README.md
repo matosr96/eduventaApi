@@ -4,6 +4,33 @@
 
 El proyecto **EduventaAPI+** se enfoca en desarrollar un sistema integral para la gestión de una tienda situada dentro de un colegio. La tienda ofrece una variedad de productos, y su objetivo principal es implementar un sistema de créditos para brindar a los clientes, como docentes o padres de familia, la posibilidad de adquirir productos mediante créditos.
 
+## Tecnologías y Habilidades Necesarias
+
+Para contribuir al desarrollo de **TiendaEscolarAPI+**, se requiere experiencia en las siguientes tecnologías y habilidades:
+
+### Tecnologías Principales:
+
+- Node.js
+- Express.js
+- Base de Datos Relacional (p. ej., MySQL, PostgreSQL)
+- JSON Web Tokens (JWT) para autenticación
+- Documentación con Swagger
+
+### Habilidades Específicas:
+
+- Diseño y implementación de API RESTful
+- Desarrollo de modelos de base de datos relacional
+- Experiencia en operaciones CRUD
+- Manejo de errores y respuestas HTTP
+- Prácticas de seguridad, incluyendo validación de entrada
+- Implementación de logs para rastreo de eventos
+
+### Opcionales pero Deseables:
+
+- Experiencia con herramientas de migración de bases de datos
+- Conocimientos en sistemas de pagos y transacciones
+- Familiaridad con herramientas de desarrollo colaborativo (Git)
+  
 ## Modelo de Base de Datos
 
 ### Clientes:
