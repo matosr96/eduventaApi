@@ -21,7 +21,7 @@ const swaggerSpec = {
     ],
   },
   apis: [
-    path.join(__dirname, "../docs/swagger/*.json")
+    path.join(__dirname, "../docs/swagger/*.ts")
   ],
 };
 
